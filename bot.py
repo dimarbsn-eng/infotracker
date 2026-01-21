@@ -4,8 +4,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from apify_client import ApifyClient
 
 # ------------------ СЮДА ВСТАВЛЯЕМ КЛЮЧИ ------------------
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-APIFY_TOKEN    = 'YOUR_APIFY_TOKEN'
+TELEGRAM_TOKEN = '8400432306:AAFg0b3sUA-bODsf4Ddbym8OcbW4eWOpzU8'
+APIFY_TOKEN    = 'apify_api_7yp5Ewu4VH6IKPfayKNaxOIUQdAcyd0JlaHj'
 # -----------------------------------------------------------
 
 apify  = ApifyClient(APIFY_TOKEN)
